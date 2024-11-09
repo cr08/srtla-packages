@@ -14,4 +14,10 @@ The `srtla_send` tool that sends an SRT feed over multiple links requires its ow
 
 For the time being this repo is a WIP. At any time it may or may not be working as intended. I will keep an active status below up to date as new commits are added.
 
-**Current Status:** ❌ Not functional. Do not use!
+**Current Status:** ❔ Compiles. No confirmation if it runs.
+
+## TODO:
+
+* Confirm base functionality on an OpenWRT install
+* Add firewall hotplug script to reload IP list when an interface is added/goes up/down
+* Add proper init scripts and defaults to make it more user friendly
