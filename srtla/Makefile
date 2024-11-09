@@ -22,7 +22,7 @@ define Build/Prepare
 	$(CP) ./src/* $(PKG_BUILD_DIR)/
 endef
 
-define Package/quectel-CM-5G/install
+define Package/srtla/install
 	$(INSTALL_DIR) $(1)/usr/bin
 	$(INSTALL_BIN) $(PKG_BUILD_DIR)/srtla_send $(1)/usr/bin
 	$(INSTALL_BIN) $(PKG_BUILD_DIR)/srtla_rec $(1)/usr/bin
