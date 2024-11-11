@@ -21,3 +21,6 @@ For the time being this repo is a WIP. At any time it may or may not be working 
 * Confirm base functionality on an OpenWRT install
 * Add firewall hotplug script to reload IP list when an interface is added/goes up/down
 * Add proper init scripts and defaults to make it more user friendly
+* Integrate some config options into the OWRT uci/config system
+* Add some logging to OWRT's existing log system, prioritizing network based messages
+* Rework repo to pull the core source from the upstream Belabox repo as OpenWRT's build system allows
