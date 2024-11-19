@@ -12,7 +12,7 @@ The `srtla_send` tool that sends an SRT feed over multiple links requires its ow
 
 ## Next steps
 
-In addition to the ever growing TODO list below, after exploring the Belabox platform as a whole, I'd like to explore porting this over to OpenWRT to make the networking side more accessible and expandable. No ETA. Will be worked on as my free time allows.
+In addition to the ever growing TODO list below for just the `srtla` tools, after exploring the Belabox platform as a whole I'd like to explore porting this over to OpenWRT to make the networking side more accessible and expandable. No ETA. Will be worked on as my free time allows.
 
 ## Disclaimer
 
@@ -22,7 +22,7 @@ For the time being this repo is a WIP. At any time it may or may not be working 
 
 ## TODO:
 
-* Confirm base functionality on an OpenWRT install
+* ✅ ~~Confirm base functionality on an OpenWRT install~~
 * Add firewall hotplug script to reload IP list when an interface is added/goes up/down
 * Add proper init scripts and defaults to make it more user friendly
 * Integrate some config options into the OWRT uci/config system
