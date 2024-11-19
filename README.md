@@ -10,11 +10,15 @@ OpenWRT is an open source router software that can be run on many platforms. As 
 
 The `srtla_send` tool that sends an SRT feed over multiple links requires its own direct access to said network links. This means that while running OpenWRT to manage these, `srtla_send` needs to run on OpenWRT itself to see the individual network links. It can then be fed by a LAN connected device via a normal SRT feed.
 
+## Next steps
+
+In addition to the ever growing TODO list below, after exploring the Belabox platform as a whole, I'd like to explore porting this over to OpenWRT to make the networking side more accessible and expandable. No ETA. Will be worked on as my free time allows.
+
 ## Disclaimer
 
 For the time being this repo is a WIP. At any time it may or may not be working as intended. I will keep an active status below up to date as new commits are added.
 
-**Current Status:** ❔ Compiles. No confirmation if it runs.
+**Current Status:** ✅ Compiles and runs. Tested on an RPi5. Barebones functionality of the original `srtla_send` tool is there.
 
 ## TODO:
 
